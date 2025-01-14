@@ -1,4 +1,4 @@
-function getHiddenCard(num: string, stars?: number = 4) {
+function getHiddenCard(num: string, stars: number = 4) {
     const a = '*'.repeat(stars);
     const b = num.slice(-4);
     return a + b;
