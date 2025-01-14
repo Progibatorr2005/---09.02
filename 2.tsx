@@ -1,4 +1,4 @@
-function repeat(a: string, b: number): void {
+function repeat(a: string, b: number) {
     let z = "";
     for (let i = 0; i < b; i++) {
         z += a;
