@@ -7,3 +7,4 @@ namespace Company {
   console.log(Company.isEmployeeEmail('john.doe@example.com', 'example.com')); // true
   console.log(Company.isEmployeeEmail('jane.doe@another.com', 'example.com')); // false
   
+  
